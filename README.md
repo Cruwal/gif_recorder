@@ -25,13 +25,13 @@ pkg-config --modversion gtk4
 You should use `4.8`
 
 
-## Some references
+# Some references
 
-# GTK
+## GTK
 - [GUI development with Rust and GTK 4](https://gtk-rs.org/gtk4-rs/stable/latest/book/introduction.html)
 - [GTK with Rust](https://gtk-rs.org/)
 
-# Rust
+## Rust
 - [Learn X in Y minutes](https://learnxinyminutes.com/docs/rust/)
 - [A Half Hour to Learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
 
