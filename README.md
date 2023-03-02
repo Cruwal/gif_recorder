@@ -1,12 +1,37 @@
 # Gif_recorder
 Program to record some portion of the screen using rust language.
 
-## Some references
-- https://learnxinyminutes.com/docs/rust/
-- https://rust-qt.github.io/qt/
-- https://gtk-rs.org/
-- https://gtk.org/docs/language-bindings/rust
-- https://doc.qt.io/qt-6/qtwidgets-desktop-screenshot-example.html
+## Development
 
-Comece aqui:
+# Setup
+
+First you should install the build essentials for GTK4:
+Ubuntu:
+```
+sudo apt install libgtk-4-dev build-essential
+```
+
+Arch:
+```
+sudo pacman -S gtk4 base-devel
+```
+
+Verify the installed version
+
+```
+pkg-config --modversion gtk4
+```
+
+You should use `4.8`
+
+
+## Some references
+
+# GTK
 - [GUI development with Rust and GTK 4](https://gtk-rs.org/gtk4-rs/stable/latest/book/introduction.html)
+- [GTK with Rust](https://gtk-rs.org/)
+
+# Rust
+- [Learn X in Y minutes](https://learnxinyminutes.com/docs/rust/)
+- [A Half Hour to Learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
+
