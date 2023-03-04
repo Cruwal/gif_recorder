@@ -6,6 +6,7 @@ Program to record some portion of the screen using rust language.
 # Setup
 
 First you should install the build essentials for GTK4:
+
 Ubuntu:
 ```
 sudo apt install libgtk-4-dev build-essential
@@ -30,6 +31,8 @@ You should use `4.8`
 ## GTK
 - [GUI development with Rust and GTK 4](https://gtk-rs.org/gtk4-rs/stable/latest/book/introduction.html)
 - [GTK with Rust](https://gtk-rs.org/)
+- [GDK](https://docs.gtk.org/gdk4/)
+- [GIO](https://docs.gtk.org/gio/)
 
 ## Rust
 - [Learn X in Y minutes](https://learnxinyminutes.com/docs/rust/)
